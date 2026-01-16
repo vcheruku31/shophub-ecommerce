@@ -1,7 +1,5 @@
 # Class Diagram Documentation
 
-## What is a Class Diagram?
-
 A class diagram is a visual representation that shows the structure of a system. It displays classes (like blueprints for objects), their properties (attributes), their actions (methods), and how they connect to each other (relationships).
 
 ## Classes in the E-Commerce System
@@ -76,8 +74,7 @@ This class diagram represents an e-commerce system with six main classes:
 
 ---
 
-### 5. Order
-**What it represents:** A confirmed purchase made by a user.
+### 5. Order: A confirmed purchase made by a user.
 
 **Attributes:**
 - `orderId`: Unique number to identify each order
@@ -133,14 +130,3 @@ The arrows in the diagram show how classes are connected:
 7. **User → Payment** (1 to many)
    - One user can make multiple payments
 
----
-
-## Summary
-
-This class diagram shows the core structure of an e-commerce system where:
-- **Users** can register, login, and manage their accounts
-- **Products** are organized into **Categories** and can be added to **Carts**
-- **Users** place **Orders** from their **Carts**
-- Each **Order** requires a **Payment** to complete the purchase
-
-All these components work together to create a complete online shopping experience.
