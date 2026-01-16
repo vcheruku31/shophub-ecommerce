@@ -1,7 +1,5 @@
 # Activity Diagram Documentation
 
-## What is an Activity Diagram?
-
 An activity diagram shows the flow of activities (actions) in a system. It displays the step-by-step process of how things happen, including decision points and different paths based on choices.
 
 ## ShopHub Activity Flow
@@ -38,7 +36,6 @@ After making payment, the system checks: "Payment Success?"
 - If **Yes** → performs "Place Order" followed by "Track Order"
 - If **No** → performs "Retry Payment"
 
-Both paths eventually merge.
 
 ## Admin Path
 
@@ -50,24 +47,9 @@ If the user is an **Admin**, the activities are:
 
 ## End
 
-All paths (customer flow and admin flow) eventually merge and the process ends.
-
-## Key Elements
-
-**Activities:** Rectangular boxes showing actions (e.g., "Register", "Login", "Browse Products")
-
-**Decisions:** Diamond shapes showing decision points (e.g., "User Type?", "New Customer?", "Payment Success?")
-
-**Flow:** Arrows show the direction of the process flow
-
-**Merge Points:** Where different paths come together
-
-## Summary
-
 This activity diagram shows:
 - **Customers** can register/login, browse products, manage cart, checkout, make payment, and track orders
 - **Admins** can login, view dashboard, manage inventory, and process orders
-- The system handles different paths based on user type and decisions (like payment success)
 - All activities flow from start to end, showing the complete process
 
 The diagram helps understand the overall workflow and how different user actions lead to different outcomes in ShopHub.

@@ -1,7 +1,5 @@
 # Use Case Diagram Documentation
 
-## What is a Use Case Diagram?
-
 A use case diagram shows the different ways users (called "actors") interact with a system. It displays what users can do in the system and how the system responds to their actions.
 
 ## Actors in ShopHub
@@ -51,17 +49,8 @@ These functionalities are used by multiple use cases:
 - `Search Products` includes `Filter Products` - Searching involves filtering
 - `Checkout` includes `Make Payment` - Checkout requires payment processing
 
-**Actor Connections:**
-- **Customer** connects to: Register, Login, Search Products, Manage Cart, Checkout, Track Order, Manage user Profile
-- **Admin** connects to: Admin Login, Manage Inventory, View Orders, Update Order Status, View Dashboard, Manage Products
-- **Payment Gateway** connects to: Make Payment
-
-## Summary
-
 This use case diagram shows that:
 - **Customers** can browse, shop, and manage their orders
 - **Admins** can manage products, inventory, and view all orders
 - **Payment Gateway** handles all payment transactions
 - Some functionalities like authentication and filtering are shared across different use cases
-
-The diagram helps understand what each type of user can do in the ShopHub e-commerce platform.

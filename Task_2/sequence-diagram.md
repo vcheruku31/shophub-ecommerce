@@ -1,7 +1,5 @@
 # Sequence Diagram Documentation
 
-## What is a Sequence Diagram?
-
 A sequence diagram shows how different parts of a system communicate with each other over time. It displays the order of messages exchanged between users and system components, like a conversation flow.
 
 ## Participants in ShopHub
@@ -61,12 +59,9 @@ The diagram shows six main participants:
 
 **Flow:** Messages flow from top to bottom, showing the sequence of events over time.
 
-## Summary
-
 This sequence diagram shows:
 - **Customers** interact with the app, which communicates with Auth Service, Order System, and Payment Gateway
 - **Admins** interact with the app, which communicates with Auth Service and Order System
 - All interactions go through the Web/Mobile App, which acts as the main interface
-- Each action triggers a response, showing the back-and-forth communication between components
+- Each action triggers a response, showing the ack-and-forth communication between components
 
-The diagram helps understand the step-by-step flow of how users and system components communicate to complete tasks in ShopHub.

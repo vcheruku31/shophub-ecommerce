@@ -6,8 +6,7 @@ A class diagram is a visual representation that shows the structure of a system.
 
 This class diagram represents an e-commerce system with six main classes:
 
-### 1. User
-**What it represents:** A customer or user of the e-commerce platform.
+### 1. User: A customer or user of the e-commerce platform.
 
 **Attributes (Properties):**
 - `userId`: Unique number to identify each user
@@ -24,8 +23,7 @@ This class diagram represents an e-commerce system with six main classes:
 
 ---
 
-### 2. Cart
-**What it represents:** A shopping cart where users temporarily store products before purchasing.
+### 2. Cart: A shopping cart where users temporarily store products before purchasing.
 
 **Attributes:**
 - `cartId`: Unique number to identify each cart
@@ -38,8 +36,7 @@ This class diagram represents an e-commerce system with six main classes:
 
 ---
 
-### 3. Product
-**What it represents:** An item available for sale in the store.
+### 3. Product: An item available for sale in the store.
 
 **Attributes:**
 - `productId`: Unique number to identify each product
@@ -59,8 +56,7 @@ This class diagram represents an e-commerce system with six main classes:
 
 ---
 
-### 4. Category
-**What it represents:** A way to organize products into groups (like "Electronics", "Clothing", etc.).
+### 4. Category: A way to organize products into groups (like "Electronics", "Clothing", etc.).
 
 **Attributes:**
 - `categoryId`: Unique number to identify each category
@@ -89,8 +85,7 @@ This class diagram represents an e-commerce system with six main classes:
 
 ---
 
-### 6. Payment
-**What it represents:** Handles the payment process for orders.
+### 6. Payment: Handles the payment process for orders.
 
 **Attributes:**
 - `paymentId`: Unique number to identify each payment
